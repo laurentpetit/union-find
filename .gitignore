@@ -1,5 +1,6 @@
 /target
 /classes
+/bin
 /checkouts
 pom.xml
 pom.xml.asc
@@ -7,3 +8,6 @@ pom.xml.asc
 *.class
 /.lein-*
 /.nrepl-port
+/.nrepl
+/*.txt
+/.settings/ccw.repl.cmdhistory.prefs
