@@ -159,6 +159,7 @@ You can get the number of sites in the datastructure via `'count-sites`:
 
 ## Todo List
 
+* Add a `(connected? uf p q)` function
 * Implement path compression via optimistic :volatile-synchronized for
 UnionFind site-props
 * Add methods to return the components (sets of sites)
