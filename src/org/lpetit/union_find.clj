@@ -71,7 +71,7 @@
   
   ;; count returns the number of components, not the number of sites
   clojure.lang.Counted
-  (count [this] (count-sites this))
+  (count [this] count)
   
   clojure.lang.ILookup
   (valAt [this k] (.valAt this k nil))
